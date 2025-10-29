@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .caree{
+        width: 200px;
+        height: 200px;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .btns{
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn{
+        width: 120px;
+        height: 50px;
+        background-color: gray;
+    }
+</style>
+<body>
+    <div class="caree" id="display"></div>
+        <div class="btns">
+
+            <button type="button" id="minis" class="btn">-</button>
+        <button type="button" id="reset" class="btn">RESEST</button>
+        <button type="button" id="add" class="btn">+</button>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
