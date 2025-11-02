@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-header">
+            <p class="title">Calc</p>
+            <div class="theme-container">
+                <p class="descreption">THEME</p>
+                <div class="slider">
+                    <div class="numbers">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                    <div class="slider-line">
+                        <div class="slider-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calculator-result">
+            <p class="result" id="result"></p>
+        </div>
+        <div class="calculator-body">
+            <div class="btn number" id="btn7" value="7">7</div>
+            <div class="btn number" id="btn8" value="8">8</div>
+            <div class="btn number" id="btn9" value="9">9</div>
+            <div class="btn del" id="btndell">DEL</div>
+
+            <div class="btn number" id="btn4" value="4">4</div>
+            <div class="btn number" id="btn5" value="5">5</div>
+            <div class="btn number" id="btn6" value="6">6</div>
+            <div class="btn operator" id="btnadd" value="+">+</div>
+
+            <div class="btn number" id="btn1" value="1">1</div>
+            <div class="btn number" id="btn2" value="2">2</div>
+            <div class="btn number" id="btn3" value="3">3</div>
+            <div class="btn operator" id="btnminus" value="-">-</div>
+
+            <div class="btn number" id="btndot" value=".">.</div>
+            <div class="btn number" id="btn0" value="0">0</div>
+            <div class="btn operator" id="btndiv" value="/">/</div>
+            <div class="btn operator" id="btnmultiple" value="*">*</div>
+
+            <div class="btn reset" id="btnrest" value="reset">RESET</div>
+            <div class="btn equal" id="btnequal" value="=">=</div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.8.1/math.js" integrity="sha512-AJmFmOXFAAzxbzp498VFGf+/Ke7n/O/Pz7L7R2in/4lEDkqhFvuIemyJo/MzXORunJkrJngeIyaWqLAj2rTY2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
