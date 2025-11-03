@@ -1,0 +1,62 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+}
+.animal-image{
+    width: 90%;
+    height: 75vh;
+}
+.direct-btn{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.direct-btn button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-color: transparent;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons button{
+    text-align: center;
+    padding: 10px;
+}
+#like{
+    color: red;
+}
+.dislikebtn , .likebtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.dislikebtn a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.likebtn a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
